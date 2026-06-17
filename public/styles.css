@@ -1,0 +1,90 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+    background: linear-gradient(to bottom, #cceeff, #99ccff); /* Water-themed gradient */
+    transition: background 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background: #121212;
+    color: white;
+}
+
+.dark-mode a {
+    color: lightblue;
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#predict-btn {
+    background-color: blue;
+    color: white;
+}
+
+#predict-btn:hover {
+    background-color: darkblue;
+}
+
+#download-btn {
+    background-color: green;
+    color: white;
+}
+
+#download-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Language Selector */
+#languageSelect {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+/* Container */
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Upload Section */
+.upload-section {
+    margin-top: 20px;
+}
+
+/* Prediction Result */
+#prediction-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.college-logo {
+    height: 50px;  /* Adjust size as needed */
+    margin-right: 15px;
+}

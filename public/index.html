@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinking Water Detection</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="vvit_logo.jpeg" alt="College Logo" class="college-logo">
+        </div>
+        <div class="nav-right">
+            <a href="#">Home</a>
+            <a href="#">Upload</a>
+        </div>
+    </nav>
+    
+
+    <h2 id="upload-text">Upload an Image</h2>
+    <input type="file" id="image-upload" accept="image/*">
+    <button id="predict-btn">Upload & Predict</button>
+    
+    <select id="language">
+        <option value="en">English</option>
+        <option value="te">తెలుగు</option>
+    </select>
+
+    <h2 id="prediction-text">Prediction:</h2>
+    <p id="prediction-result">--</p>
+
+    <button id="download-report">Download Report</button>
+    <button id="dark-mode-btn">Dark Mode</button>
+
+    <h3 id="water-safety">Water Safety Tips</h3>
+    <ul id="water-safety-list"></ul>
+
+    <h3 id="sanitation">Sanitation Suggestions</h3>
+    <ul id="sanitation-list"></ul>
+
+    <div id="root"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
