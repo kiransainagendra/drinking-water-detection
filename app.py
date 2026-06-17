@@ -12,7 +12,7 @@ app = Flask(__name__)
 CORS(app)  # Enable CORS
 
 # Load the trained model
-MODEL_PATH = os.path.join(os.path.dirname(__file__), "..", "water_classifier.h5")
+MODEL_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "water_classifier.h5")
 
 try:
     model = load_model(MODEL_PATH, compile=False)
